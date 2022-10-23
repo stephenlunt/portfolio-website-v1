@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "id": 3,
+      "title": "Personal Website",
+      "imgUrl": "/images/stock.jpg",
+      "imgAlt": "forest",
+      "description": "This is my personal website",
+      "date": "October, 2022",
+      "stack": ["NextJs", "TailwindCSS", "HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 2,
+      "title": "Scrabble Checker",
+      "imgUrl": "/images/stock.jpg",
+      "imgAlt": "forest",
+      "description": "Web application for checking valid words in Scrbble & ...",
+      "date": "September, 2022",
+      "stack": [
+        "Django",
+        "Python",
+        "PostgresDB",
+        "Docker",
+        "Vanilla JS",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "CLI Password Strength",
+      "imgUrl": "/images/stock.jpg",
+      "imgAlt": "forest",
+      "description": "CLI tool created in Python to check the strength of passwords and ...",
+      "date": "April, 2022",
+      "stack": ["Python"]
+    }
+  ]
+}
