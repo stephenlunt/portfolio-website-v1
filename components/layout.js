@@ -1,7 +1,8 @@
 import Head from 'next/head'
+
 import Navbar from './navbar'
 
-const Layout = ({ children, router }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Head>
@@ -12,10 +13,8 @@ const Layout = ({ children, router }) => {
       </Head>
 
       <Navbar />
-      
-      <main>
-        {children}
-      </main>
+
+      <main className="pt-20">{children}</main>
     </>
   )
 }

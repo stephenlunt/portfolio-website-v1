@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { BsMoonStars, BsEmojiSunglasses } from 'react-icons/bs'
+import { BsMoonFill, BsSunFill } from 'react-icons/bs'
 
 const ToggleThemeButton = () => {
   const [theme, setTheme] = useState(null)
@@ -14,7 +14,7 @@ const ToggleThemeButton = () => {
     } else {
       setTheme('light')
     }
-  
+
     setIsMounted(true)
   }, [])
 
@@ -23,7 +23,11 @@ const ToggleThemeButton = () => {
     localStorage.setItem('theme', t)
     setTheme(t)
 
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    if (
+      localStorage.theme === 'dark' ||
+      (!('theme' in localStorage) &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches)
+    ) {
       document.documentElement.classList.add('dark')
     } else {
       document.documentElement.classList.remove('dark')
@@ -31,16 +35,12 @@ const ToggleThemeButton = () => {
   }
 
   return isMounted ? (
-    <button 
-      className="w-8 h-8 rounded-lg bg-zinc-100 flex items-center justify-center hover:ring-2 ring-blue-400 transition-all duration-300 focus:outline-none"
-      onClick={toggleTheme} 
-      aria-label="Toogle Theme"
+    <button
+      className="w-10 h-10 aspect-square bg-amber-200/50 dark:bg-slate-700/50 border border-amber-400 dark:border-slate-500 text-slate-700 dark:text-slate-200 rounded-md flex items-center justify-center transition-all duration-200"
+      onClick={toggleTheme}
+      aria-label="Toggle Theme"
     >
-      {theme === 'light' ? (
-        <BsMoonStars />
-      ) : (
-        <BsEmojiSunglasses />
-      )}
+      {theme === 'light' ? <BsMoonFill /> : <BsSunFill />}
     </button>
   ) : (
     <div />

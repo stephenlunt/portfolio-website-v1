@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Personal Website",
+      "slug": "personal-website",
+      "imgUrl": "/images/stock.jpg",
+      "imgAlt": "Personal website homepage"
+    },
+    {
+      "title": "Scrabble Checker",
+      "slug": "scrabble-checker",
+      "imgUrl": "/images/stock.jpg",
+      "imgAlt": "Scrabble checker website homepage"
+    },
+    {
+      "title": "CLI Password Strength",
+      "slug": "python-cli-password-checker",
+      "imgUrl": "/images/stock.jpg",
+      "imgAlt": "Python command line password checking tool"
+    },
+    {
+      "title": "Cocktail Club",
+      "slug": "cocktail-club",
+      "imgUrl": "/images/stock.jpg",
+      "imgAlt": "Cocktail club website homepage"
+    }
+  ]
+}

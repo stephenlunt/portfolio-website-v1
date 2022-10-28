@@ -1,15 +1,37 @@
-import Head from 'next/head'
-import ProjectsGrid from '../components/projects-grid'
+import { promises as fs } from 'fs'
+import path from 'path'
+import { motion } from 'framer-motion'
 
-const Home = ({projects}) => {
-  return (<>
-    <ProjectsGrid projects={projects} />
-  </>)
+import ProjectsGrid from '../components/projects-grid'
+import About from '../components/about'
+
+const Home = ({ projects }) => {
+  return (
+    <>
+      <motion.div
+        className="font-mono text-3xl py-[100px] flex justify-center mx-auto"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2, delay: 0 }}
+      >
+        Lorem Ipsum
+      </motion.div>
+
+      <About />
+
+      <ProjectsGrid projects={projects} />
+    </>
+  )
 }
 
+/**
+ * https://nextjs.org/docs/api-reference/data-fetching/get-static-props
+ */
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/projects.json')
-  const data = await res.json()
+  const projectsDirectory = path.join(process.cwd(), 'data')
+  const filePath = path.join(projectsDirectory, 'projects.json')
+  const fileContents = await fs.readFile(filePath, 'utf8')
+  const data = JSON.parse(fileContents)
 
   return {
     props: {
