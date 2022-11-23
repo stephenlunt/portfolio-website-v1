@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Overpass', 'sans-serif'],
-        mono: ['Overpass Mono', 'monospace']
+        body: ['Source Sans Pro', 'sans-serif'],
+        mono: ['monospace']
       }
     }
   },

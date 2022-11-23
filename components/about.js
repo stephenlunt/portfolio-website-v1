@@ -1,10 +1,16 @@
 const About = () => {
   return (
-    <section id="about" className="flex justify-center flex-col mx-auto max-w-2xl pb-4">
-      <h2 className="text-2xl text-center">Hello, World!</h2>
-      <p className="text-center">
-        My name is Stephen. I&apos;m currently pursuing a masters degree 
-        in computer science at Newcastle University.
+    <section
+      id="about"
+      className="mx-auto flex max-w-2xl flex-col justify-center p-4"
+    >
+      <p className="text-center text-lg">
+        Hi, my name is
+        <span className="text-amber-gradient"> Stephen</span> 👋 I&apos;m an
+        aspiring <span className="text-blue-gradient">Software Engineer </span>
+        currently pursuing my masters degree in
+        <span className="text-green-gradient"> Computer Science </span>
+        at Newcastle University.
       </p>
     </section>
   )

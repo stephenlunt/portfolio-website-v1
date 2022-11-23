@@ -2,29 +2,37 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import { motion } from 'framer-motion'
 
-import ProjectsGrid from '../components/projects-grid'
+import Art from '../components/art'
 import About from '../components/about'
+import ProjectsGrid from '../components/projects-grid'
+import Timeline from '../components/timeline'
+import ContactMe from '../components/contact'
 
 const Home = ({ projects }) => {
   return (
     <>
       <motion.div
-        className="font-mono text-3xl py-[100px] flex justify-center mx-auto"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 2, delay: 0 }}
       >
-        Lorem Ipsum
+        <Art />
       </motion.div>
 
       <About />
 
       <ProjectsGrid projects={projects} />
+
+      <Timeline />
+
+      <ContactMe />
     </>
   )
 }
 
 /**
+ * Load in the static project data stored in ./data/projects.json
+ *
  * https://nextjs.org/docs/api-reference/data-fetching/get-static-props
  */
 export async function getStaticProps() {

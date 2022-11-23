@@ -1,26 +1,27 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+// TODO: implement featured and hidden projects
 const ProjectsGrid = ({ projects }) => {
   return (
     <section
       id="projects"
-      className="flex flex-col justify-center mx-auto px-4 max-w-5xl"
+      className="mx-auto flex max-w-4xl flex-col justify-center px-4"
     >
-      <h2 className="flex justify-center mx-auto text-2xl p-4">Projects</h2>
+      <h2 className="mx-auto flex justify-center p-4 text-2xl">Projects</h2>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
         {projects.map((project, index) => (
           <Link key={index} href={'/projects/' + project.slug}>
-            <div className="relative bg-black/20 rounded-md aspect-[16/9] shadow-lg cursor-pointer">
+            <div className="relative z-20 aspect-[3/2] cursor-pointer rounded-md bg-black/20 drop-shadow-xl">
               <Image
                 src={project.imgUrl}
                 alt={project.imgAlt}
                 layout="fill"
-                className="rounded-md"
+                className="rounded-md opacity-90 transition-opacity duration-500 hover:opacity-100"
               />
-              <div className="absolute w-full bottom-0 bg-black/30 py-1 rounded-b-md">
-                <h3 className="flex flex-row justify-center mx-auto text-white">
+              <div className="absolute bottom-0 z-30 w-full rounded-b-md bg-black/30 py-1">
+                <h3 className="mx-auto flex flex-row justify-center text-white">
                   {project.title}
                 </h3>
               </div>

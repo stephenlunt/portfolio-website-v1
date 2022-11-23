@@ -1,28 +1,36 @@
 {
   "projects": [
     {
-      "title": "Personal Website",
-      "slug": "personal-website",
-      "imgUrl": "/images/stock.jpg",
-      "imgAlt": "Personal website homepage"
-    },
-    {
       "title": "Scrabble Checker",
       "slug": "scrabble-checker",
-      "imgUrl": "/images/stock.jpg",
+      "visible": true,
+      "featured": true,
+      "imgUrl": "/images/scrabble-checker-homepage.jpeg",
       "imgAlt": "Scrabble checker website homepage"
     },
     {
-      "title": "CLI Password Strength",
-      "slug": "python-cli-password-checker",
-      "imgUrl": "/images/stock.jpg",
+      "title": "Personal Website",
+      "slug": "personal-website",
+      "visible": true,
+      "featured": true,
+      "imgUrl": "/images/personal-site-art.jpeg",
+      "imgAlt": "Personal website homepage"
+    },
+    {
+      "title": "CLI Password Checker",
+      "slug": "cli-password-checker",
+      "visible": true,
+      "featured": true,
+      "imgUrl": "/images/cli-password-checker.jpeg",
       "imgAlt": "Python command line password checking tool"
     },
     {
-      "title": "Cocktail Club",
+      "title": "The Cocktail Club",
       "slug": "cocktail-club",
-      "imgUrl": "/images/stock.jpg",
-      "imgAlt": "Cocktail club website homepage"
+      "visible": true,
+      "featured": true,
+      "imgUrl": "/images/cocktail-club-homepage.jpeg",
+      "imgAlt": "The Cocktail Club website homepage"
     }
   ]
 }

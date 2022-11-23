@@ -1,10 +1,12 @@
-import Link from 'next/link'
-import Image from 'next/image'
-
 const Footer = () => {
-  ;<div id="footer" className="absolute bottom-0">
-    <p>&copy; Stephen Lunt</p>
-  </div>
+  return (
+    <div
+      id="footer"
+      className="my-2 mx-auto flex translate-y-24 flex-col items-center justify-center py-2"
+    >
+      <p>&copy; 2022 Stephen Lunt.</p>
+    </div>
+  )
 }
 
 export default Footer
