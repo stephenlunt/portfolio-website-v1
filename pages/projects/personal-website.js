@@ -33,7 +33,7 @@ const Project = () => {
         <div className="inline-flex items-center gap-1">
           <BsGithub className="my-auto" />
           <a
-            href="https://github.com/stephenlunt97/stephen-lunt"
+            href="https://github.com/stephenlunt97/portfolio-website"
             target="_blank"
             rel="noreferrer noopener"
           >
