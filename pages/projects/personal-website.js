@@ -65,7 +65,8 @@ const Project = () => {
           </a>
           &nbsp;for styling. The majority of projects I&apos;d worked on up to
           this point only used vanilla JavaScript, therefore I was eager to
-          explore the React framework and gain experience using a component-based architecture.
+          explore the React framework and gain experience using a
+          component-based architecture.
         </p>
 
         <div className="px-2 py-4">
