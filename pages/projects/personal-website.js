@@ -83,6 +83,7 @@ const Project = () => {
           <Image
             src={'/images/personal-site-art.jpeg'}
             alt="Scrabble Checker Homepage"
+            priority={true}
             quality="100"
             width="3"
             height="2"

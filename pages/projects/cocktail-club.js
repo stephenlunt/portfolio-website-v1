@@ -57,6 +57,7 @@ const Project = () => {
           <Image
             src={'/images/cocktail-club-homepage.jpeg'}
             alt="The Cocktail Club homepage"
+            priority={true}
             quality="100"
             width="3"
             height="2"

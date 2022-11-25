@@ -50,6 +50,7 @@ const Project = () => {
           <Image
             src={'/images/password-checker.gif'}
             alt="CLI Password Checker"
+            priority={true}
             quality="100"
             width="3"
             height="2"

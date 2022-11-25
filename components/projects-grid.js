@@ -17,6 +17,7 @@ const ProjectsGrid = ({ projects }) => {
               <Image
                 src={project.imgUrl}
                 alt={project.imgAlt}
+                priority={true}
                 layout="fill"
                 className="rounded-md opacity-90 transition-opacity duration-500 hover:opacity-100"
               />
