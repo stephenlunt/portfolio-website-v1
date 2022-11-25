@@ -13,7 +13,7 @@ const Timeline = () => {
           <TimelineElement
             date={'Dec 2021'}
             title={'Humble beginnings'}
-            text={`During this period I was working a heavily data orientated job with no
+            text={`During this period, I was working a heavily data-orientated job with no
             programming knowledge. After reading an article about Python I became interested 
             in how it could help me in my role. I picked up a copy of Automate the Boring Stuff with
             Python and began writing my first pieces of code.
@@ -24,24 +24,24 @@ const Timeline = () => {
             date={'Jan 2022'}
             title={'CS50X'}
             text={`After seeing the potential of what programming has to offer, I began taking CS50's Introduction 
-            to Computer Science. It was a great course to learn the core topics of CS and gave me plenty of practise 
-            coding in languages such as C, Python, SQL & Javascript.
+            to Computer Science. It was a great course to learn the core topics of CS and gave me plenty of practice 
+            coding in languages such as C, Python, SQL & JavaScript.
             `}
           />
 
           <TimelineElement
             date={'April 2022'}
             title={'CS50 Python'}
-            text={`Having enjoyed CS50's course so much, I revisited Python in more depth. 
-              During this course I gained a lot more knowlegde and practise using more advanced Python 
+            text={`Having enjoyed CS50's course so much, I revisited Python in greater depth. 
+              During this course, I gained experience in using more advanced Python 
               features and was introduced to Object Oriented Programming.`}
           />
 
           <TimelineElement
             date={'June 2022'}
             title={'CS50 Web'}
-            text={`Looking to extend my knowledge further, I dived into the world of the web. I learnt 
-            a lot on the django framework and more advanced JavaScript, leading on to complete my biggest 
+            text={`Looking to extend my knowledge further, I dived into the world wide web. I learnt 
+            the Django web framework as well as many JavaScript concepts, leading on to complete my biggest 
             project yet (scrabble-checker.app).`}
           />
 
@@ -50,7 +50,7 @@ const Timeline = () => {
             title={'MSc Computer Science'}
             text={`I'm currently embarking on a Computer Science conversion MSc at Newcastle University. 
             Here I'm learning many advanced topics of programming in Java, as well as databases, networking, 
-            cyber sercurity and much more!
+            cyber security and much more!
             `}
           />
         </div>

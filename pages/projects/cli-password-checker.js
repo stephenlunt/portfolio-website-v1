@@ -24,7 +24,7 @@ const Project = () => {
           Programming with Python course. It is a simple command line password
           strength checker and unique password generator. I choose this project
           to build up my experience using Python classes & objects, practise
-          test driven development utilising the&nbsp;
+          test-driven development with the&nbsp;
           <a
             className="underline"
             href="https://pytest.org/"

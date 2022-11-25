@@ -44,7 +44,8 @@ const Project = () => {
 
       <section className="mx-auto flex max-w-2xl flex-col justify-center px-4 py-4 text-justify">
         <p>
-          I built my portfolio website (the site you&apos;re on now) with&nbsp;
+          My portfolio website (the site you&apos;re on now) was built
+          using&nbsp;
           <a
             className="underline"
             href="https://nextjs.org/"
@@ -53,7 +54,7 @@ const Project = () => {
           >
             Next.js
           </a>
-          &nbsp;and utilized&nbsp;
+          &nbsp;and utilises&nbsp;
           <a
             className="underline"
             href="https://tailwindcss.com/"
@@ -64,8 +65,7 @@ const Project = () => {
           </a>
           &nbsp;for styling. The majority of projects I&apos;d worked on up to
           this point only used vanilla JavaScript, therefore I was eager to
-          explore the React framework and gain experience using a component
-          based architecture.
+          explore the React framework and gain experience using a component-based architecture.
         </p>
 
         <div className="px-2 py-4">

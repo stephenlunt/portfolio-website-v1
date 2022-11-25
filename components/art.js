@@ -43,17 +43,27 @@ const DummyCode = () => {
 const Joke = () => {
   return (
     <div>
-      <p>public class Joke &#123;</p>
-      <p className="pl-2">public static void main(String[] args) &#123;</p>
-      <p className="pl-4">&#47;&#47; Would you like to hear a joke?</p>
-      <p className="pl-4">
+      <p style={{ animationDelay: '2s' }}>public class Joke &#123;</p>
+      <p className="pl-2" style={{ animationDelay: '4s' }}>
+        public static void main(String[] args) &#123;
+      </p>
+      <p className="pl-4" style={{ animationDelay: '6s' }}>
+        &#47;&#47; Would you like to hear a joke?
+      </p>
+      <p className="pl-4" style={{ animationDelay: '8s' }}>
         String joke = &quot;Why did the Python programmer have crooked
         teeth?&quot;;
       </p>
-      <p className="pl-4">String punchLine = &quot;No braces.&quot;;</p>
-      <p className="pl-4">System.out.println(joke + punchLine);</p>
-      <p className="pl-2">&#125;</p>
-      <p>&#125;</p>
+      <p className="pl-4" style={{ animationDelay: '10s' }}>
+        String punchLine = &quot;No braces.&quot;;
+      </p>
+      <p className="pl-4" style={{ animationDelay: '12s' }}>
+        System.out.println(joke + punchLine);
+      </p>
+      <p className="pl-2" style={{ animationDelay: '13s' }}>
+        &#125;
+      </p>
+      <p style={{ animationDelay: '14s' }}>&#125;</p>
     </div>
   )
 }

@@ -8,7 +8,7 @@ const About = () => {
         Hi, my name is
         <span className="text-amber-gradient"> Stephen</span> 👋 I&apos;m an
         aspiring <span className="text-blue-gradient">Software Engineer </span>
-        currently pursuing my masters degree in
+        currently pursuing my master&apos;s degree in
         <span className="text-green-gradient"> Computer Science </span>
         at Newcastle University.
       </p>

@@ -1,6 +1,7 @@
 import {
   SiPython,
   SiJavascript,
+  SiJquery,
   SiDjango,
   SiHtml5,
   SiCss3,
@@ -21,6 +22,8 @@ const StackIcon = ({ item }) => {
       return <SiPython />
     case 'JavaScript':
       return <SiJavascript />
+    case 'jQuery':
+      return <SiJquery />
     case 'HTML':
       return <SiHtml5 />
     case 'CSS':

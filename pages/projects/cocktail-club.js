@@ -9,6 +9,7 @@ const Project = () => {
     'Flask',
     'Python',
     'JavaScript',
+    'jQuery',
     'HTML',
     'TailwindCSS',
     'SQLite'
