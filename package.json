@@ -10,7 +10,7 @@
   "description": "A portfolio website built with Next.js and TailwindCSS.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stephenlunt97/portfolio-website"
+    "url": "https://github.com/stephenlunt/portfolio-website"
   },
   "license": "MIT",
   "scripts": {

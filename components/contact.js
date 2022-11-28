@@ -14,9 +14,9 @@ const ContactMe = () => {
           text={'stephenlunt@me.com'}
         />
         <ContactButton
-          link={'https://github.com/stephenlunt97'}
+          link={'https://github.com/stephenlunt'}
           type={'github'}
-          text={'stephenlunt97'}
+          text={'stephenlunt'}
         />
       </div>
     </div>
