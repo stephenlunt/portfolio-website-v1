@@ -46,7 +46,7 @@ const Timeline = () => {
           />
 
           <TimelineElement
-            date={'Sept 2022'}
+            date={'Current'}
             title={'MSc Computer Science'}
             text={`I'm currently embarking on a Computer Science conversion MSc at Newcastle University. 
             Here I'm learning many advanced topics of programming in Java, as well as databases, networking, 
