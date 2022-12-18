@@ -26,7 +26,7 @@ const ContactMe = () => {
 const ContactButton = ({ link, type, text }) => {
   return (
     <Link href={link}>
-      <button className="mx-auto inline-flex items-center rounded-md border border-amber-300 bg-amber-200 px-2 py-1 ring-amber-300/40 hover:ring-2 dark:border-slate-500 dark:bg-slate-700 dark:ring-slate-500/40 md:my-1">
+      <button className="mx-auto inline-flex items-center rounded-md border border-amber-300 bg-amber-200/60 px-2 py-1 ring-amber-300/40 hover:ring-2 dark:border-slate-500 dark:bg-slate-700/50 dark:ring-slate-500/40 md:my-1">
         {type === 'email' ? <HiOutlineMail /> : <BsGithub />}
         <span className="ml-2">{text}</span>
       </button>

@@ -14,7 +14,7 @@ const Navbar = () => {
 
         <div className="ml-auto flex flex-row">
           <Link href="https://github.com/stephenlunt">
-            <button className="mr-2 flex aspect-square h-10 w-10 items-center justify-center rounded-md border border-amber-400 bg-amber-200/60 text-black transition-all duration-200 dark:border-zinc-600 dark:bg-zinc-900/50 dark:text-white">
+            <button className="mr-2 flex aspect-square h-10 w-10 items-center justify-center rounded-md border border-amber-300 bg-amber-200/60 text-black transition-all duration-200 dark:border-zinc-600 dark:bg-zinc-900/50 dark:text-white">
               <BsGithub />
             </button>
           </Link>
