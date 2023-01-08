@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import ToggleThemeButton from './toggle-theme'
+import ToggleThemeButton from './toggle-theme-button'
 import { BsGithub } from 'react-icons/bs'
 
 const Navbar = () => {
   return (
-    <div className="fixed z-50 w-full bg-amber-300/30 backdrop-blur-md transition-colors duration-700 dark:bg-zinc-900/30">
+    <div className="fixed z-50 w-full bg-amber-300/30 backdrop-blur-md transition-colors duration-200 dark:bg-zinc-900/30">
       <nav className="mx-auto flex max-w-4xl flex-row items-center justify-center py-3 px-4">
         <div>
           <Link href="/">
