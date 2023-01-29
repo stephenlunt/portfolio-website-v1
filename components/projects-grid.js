@@ -9,12 +9,12 @@ const ProjectsGrid = ({ projects }) => {
     >
       <h2 className="mx-auto flex justify-center p-4 text-2xl">Projects</h2>
 
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+      <div className="flex flex-row flex-wrap justify-center gap-6">
         {projects.map((project, index) => {
           if (project.featured && project.visible) {
             return (
               <Link key={index} href={'/projects/' + project.slug}>
-                <div className="relative z-20 aspect-[3/2] cursor-pointer rounded-md bg-black/20 drop-shadow-xl">
+                <div className="relative z-20 aspect-[3/2] w-[100%] cursor-pointer rounded-md bg-black/20 drop-shadow-xl sm:w-[48%]">
                   <Image
                     src={project.imgUrl}
                     alt={project.imgAlt}

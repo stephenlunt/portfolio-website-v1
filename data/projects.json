@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "title": "Binary Blitz",
+      "slug": "binary-blitz",
+      "visible": false,
+      "featured": false,
+      "imgUrl": "...",
+      "imgAlt": "Binary blitz game page"
+    },
+    {
       "title": "Scrabble Checker",
       "slug": "scrabble-checker",
       "visible": true,
