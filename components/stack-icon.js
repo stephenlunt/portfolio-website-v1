@@ -12,7 +12,8 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiFlask,
-  SiSqlite
+  SiSqlite,
+  SiTypescript
 } from 'react-icons/si'
 import { FaCode } from 'react-icons/fa'
 
@@ -46,6 +47,8 @@ const StackIcon = ({ item }) => {
       return <SiFlask />
     case 'SQLite':
       return <SiSqlite />
+    case 'TypeScript':
+      return <SiTypescript />
     default:
       return <FaCode />
   }

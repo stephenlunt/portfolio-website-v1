@@ -1,20 +1,20 @@
 {
   "projects": [
     {
-      "title": "Binary Blitz",
-      "slug": "binary-blitz",
-      "visible": false,
-      "featured": false,
-      "imgUrl": "...",
-      "imgAlt": "Binary blitz game page"
-    },
-    {
       "title": "Scrabble Checker",
       "slug": "scrabble-checker",
       "visible": true,
       "featured": true,
       "imgUrl": "/images/scrabble-checker-homepage.jpeg",
       "imgAlt": "Scrabble checker website homepage"
+    },
+    {
+      "title": "Binary Blitz",
+      "slug": "binary-blitz",
+      "visible": true,
+      "featured": true,
+      "imgUrl": "/images/binary-blitz-win.jpeg",
+      "imgAlt": "Binary blitz game page"
     },
     {
       "title": "Personal Website",
