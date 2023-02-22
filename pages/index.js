@@ -23,8 +23,6 @@ const Home = ({ projects }) => {
 
       <ProjectsGrid projects={projects} />
 
-      <Timeline />
-
       <ContactMe />
     </>
   )

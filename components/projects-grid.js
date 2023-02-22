@@ -5,7 +5,7 @@ const ProjectsGrid = ({ projects }) => {
   return (
     <section
       id="projects"
-      className="mx-auto flex max-w-4xl flex-col justify-center px-4"
+      className="mx-auto flex max-w-4xl flex-col justify-center px-4 pb-8"
     >
       <h2 className="mx-auto flex justify-center p-4 text-2xl">Projects</h2>
 
