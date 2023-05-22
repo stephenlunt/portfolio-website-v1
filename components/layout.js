@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
         <meta name="description" content="Stephens Personal Website" />
         <meta name="author" content="Stephen Lunt" />
         <title>Stephen Lunt - Homepage</title>
+        <meta name="msvalidate.01" content="803DEBC8F7F92E3DE832151EE9DBB862" />
       </Head>
 
       <Navbar />
