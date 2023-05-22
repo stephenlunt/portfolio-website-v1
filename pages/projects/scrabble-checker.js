@@ -28,13 +28,7 @@ const Project = () => {
       </h1>
       <div className="mx-auto flex justify-center gap-1 pb-4 italic underline">
         <BiLinkExternal className="my-auto" />
-        <a
-          href="https://www.scrabble-checker.app/"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          scrabble-checker.app
-        </a>
+        <a href="https://www.scrabble-checker.app/">Scrabble Word Checker</a>
       </div>
 
       <section className="mx-auto flex max-w-2xl flex-col justify-center px-4 py-4 text-justify">
